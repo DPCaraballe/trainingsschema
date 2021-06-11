@@ -1,0 +1,99 @@
+@media (min-width: 768px) {
+  .container-1,
+  .container-2 {
+    display: flex;
+    /* When you use this, the box adjusts to the text -->
+  align-items: flex-start; */
+  }
+}
+
+body {
+  background-image: url(gym3.jpg);
+  background-position: center;
+  background-color: black;
+  background-blend-mode: luminosity; /* fades the jpg */
+  background-attachment: fixed;
+  background-size: cover; /* put this in to fit the whole screen */
+  color: whitesmoke;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.container-1 div,
+.container-2 div {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+header,
+h2 {
+  font-size: 40px;
+  color: greenyellow;
+}
+
+h3 {
+  font-size: 20px;
+  color: limegreen;
+}
+
+img {
+  opacity: 0.4;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+.box-1 {
+  flex: 4;
+}
+
+.box-2 {
+  flex: 4;
+}
+
+.box-3 {
+  flex: 4;
+}
+
+/* justify-content: flex-start, flex-end or center <-- This aligns
+the content to the left, right or center */
+
+.box-4 {
+  flex: 4;
+}
+
+.box-5 {
+  flex: 4;
+}
+
+.box-6 {
+  flex: 4;
+}
+
+/* The code underneath makes youtube vids responsive, 
+remember to remove the width and height from the html code! 
+
+Apparently in this case, it doesn't work!
+
+.yt-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+.yt-container iframe,
+.yt-container object,
+.yt-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+*/
